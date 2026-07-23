@@ -427,6 +427,8 @@ header {
     cursor: pointer;
     border-radius: 50%;
     transition: .2s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.231);
+    text-shadow: 0 0px 5px rgba(0, 0, 0, 0.574);
 }
 
 .lightbox-arrow:hover {
@@ -636,7 +638,7 @@ header {
     gap: 1.5rem;
 }
 
-.contact-list a {
+.contact-list>a {
     display: flex;
     align-items: center;
     gap: 1.2rem;
@@ -684,6 +686,10 @@ header {
 @media(max-width:700px) {
     .contact-list {
         grid-template-columns: 1fr;
+    }
+
+    .contact-list>a {
+        padding: .5rem;
     }
 }
 
