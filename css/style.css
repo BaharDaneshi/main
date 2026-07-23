@@ -329,6 +329,7 @@ header {
 }
 
 .carousel-btn {
+    direction: ltr;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -344,13 +345,13 @@ header {
 }
 
 .carousel-btn.next {
-    left: 10px;
-    right: auto;
+    right: 10px;
+    left: auto;
 }
 
 .carousel-btn.prev {
-    right: 10px;
-    left: auto;
+    left: 10px;
+    right: auto;
 }
 
 /* Featured */
