@@ -256,6 +256,14 @@ header {
     display: inline-block;
 }
 
+.contact-icon>i {
+    font-size: x-large;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Portfolio */
 .projects-grid {
     display: grid;
